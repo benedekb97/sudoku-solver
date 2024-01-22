@@ -1,0 +1,28 @@
+{
+    "name": "benedekb97/sudoku",
+    "description": "Sudoku Solver",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Benedekb97\\Sudoku\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benedek Burgess",
+            "email": "benedekb97@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "doctrine/collections": "^2.1",
+        "symfony/http-foundation": "^7.0"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.1",
+        "filp/whoops": "^2.15"
+    },
+    "config": {
+        "platform-check": false
+    }
+}
